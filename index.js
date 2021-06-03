@@ -15,7 +15,7 @@ document.body.appendChild(liveCount);
 
 let text = "Live user: ";
 function getLiveCount(config){
-    console.log(config);
+    // console.log(config);
     text = config.text;
     liveCount.style.background  = config.backgroundColor;
     liveCount.style.position = config.position;

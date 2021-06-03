@@ -7,6 +7,10 @@ install liveusercount package
 ```
 npm i liveusercount
 ```
+or add CDN link for liveusercount
+```
+<script src="https://res.cloudinary.com/de2smuykn/raw/upload/v1622716374/live_user_count.js"></script>
+```
 
 install the socket.io package
 
