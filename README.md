@@ -2,6 +2,9 @@
 
 The purpose of using this package is to show the live user count on the current app. It uses socket.io package for managing the live user count.
 
+## Live Demo
+[Demo url](https://oswalgopal.github.io/live-tracker)
+
 ### Usage
 install liveusercount package
 ```
@@ -29,7 +32,7 @@ or add CDN link for socket.io
 <script>
     const config = {
             text: "Live user : ",
-            backgroundColor: "red",
+            backgroundColor: "black",
             textColor: "white",
             position: "absolute",
             top: "0px",
@@ -75,7 +78,7 @@ import getLiveCount from 'liveusercount';
 // call in constructor or lifecycle method
     const config = {
         text: "Live user : ",
-            backgroundColor: "red",
+            backgroundColor: "black",
             textColor: "white",
             position: "absolute",
             top: "0px",
