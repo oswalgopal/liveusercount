@@ -23,11 +23,28 @@ or add CDN link for socket.io
 <script src="https://cdn.socket.io/4.0.0/socket.io.min.js" integrity="sha384-DkkWv9oJFWLIydBXXjkBWnG1/fuVhw8YPBq37uvvD6WSYRFRqr21eY5Dg9ZhmWdy" crossorigin="anonymous"></script>
 ```
 
+## VanillaJS Usage
+
+```
+<script>
+    const config = {
+            text: "Live user : ",
+            backgroundColor: "red",
+            textColor: "white",
+            position: "absolute",
+            top: "0px",
+            left: "0px"
+        }
+        getLiveCount(config);
+</script>
+```
+## React Usage
+
 go to user root component and inside the useEffect hook add call this function
 
 ```
 import React from 'react';
-import getLiveCount from 'liveusercount'
+import getLiveCount from 'liveusercount';
 const RootComponent = () => {
     React.useEffect(() =>{
         const config = {
@@ -47,6 +64,24 @@ const RootComponent = () => {
 
 export default RootComponent;
 
+```
+
+## Any other module usage
+
+```
+import getLiveCount from 'liveusercount';
+// you other code
+
+// call in constructor or lifecycle method
+    const config = {
+        text: "Live user : ",
+            backgroundColor: "red",
+            textColor: "white",
+            position: "absolute",
+            top: "0px",
+            left: "0px"
+        }
+    getLiveCount(config);
 ```
 
 it will automatically generate the section for the live count on the top left of the page.
