@@ -1,6 +1,6 @@
 {
   "name": "liveusercount",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   },
   "homepage": "https://github.com/oswalgopal/liveusercount/",
   "author": "Gopal Oswal",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/oswalgopal"
+  }
 }
