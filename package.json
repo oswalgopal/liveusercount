@@ -1,10 +1,13 @@
 {
   "name": "liveusercount",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "socket.io": "^4.1.2"
   },
   "repository": {
     "type": "git",
@@ -15,8 +18,5 @@
   },
   "homepage": "https://github.com/oswalgopal/liveusercount/",
   "author": "Gopal Oswal",
-  "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/oswalgopal"
-  }
+  "license": "ISC"
 }
